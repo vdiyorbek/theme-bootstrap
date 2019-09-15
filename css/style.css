@@ -1,0 +1,135 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.content-box-xl{
+	padding: 140px 0;
+}
+.content-box-lg{
+	padding:120px 0;
+}
+.content-box-md{
+	padding:100px 0;
+}
+.content-box-sm{
+	padding:80px 0;
+}
+.container{
+	max-width: 90%!important;
+}
+/* 
+--------------------
+		header
+-------------------- */
+header{
+	background-color: #fafafa;
+}
+header h2{
+	color:grey;
+	letter-spacing: 3px;
+	font-family:"Montserrat", sans-serif;
+}
+header h1{
+	color:black;
+	font-size:80px;
+	font-family: "Montserrat",sans-serif;
+	font-weight: 700;
+}
+
+header .row button{
+	width: 150px;
+	height: 50px;
+	border: 2px solid black;
+	transition: 0.30s;
+	font-size: 18px; 
+}
+header .row button:hover{
+	cursor: pointer;
+}
+header .row button:nth-child(1){
+	background-color: black;
+	color:white;
+}
+header .row button:nth-child(2){
+	background-color: #fafafa;
+	color:black;
+} 
+header .row button:nth-child(1):hover{
+	background-color: #fafafa;
+	color:black;
+}
+header .row button:nth-child(2):hover{
+	background-color: black;
+	color:white;
+
+}
+
+/* 
+----------------
+	body
+---------------- */
+#body .body-text{
+	padding-right: 570px;
+}
+#body .body-text p{
+	font-size: 24px;
+	color:black;
+	font-family: "Montserrat", sans-serif;
+} 
+#body .body-img .col-lg-4{
+	overflow: hidden;
+} 
+#body .body-img .col-lg-4:hover{
+	cursor:pointer;
+}
+#body .body-img .col-lg-4 .overflow-hidden{
+	width: 355px;
+	height: 100%;
+	position:absolute;
+	background-color: rgba(0,0,0,.9);
+	transition: .5s;
+	padding-top:250px;
+	font-family: "Montserrat", sans-serif;
+}
+#body .body-img .col-lg-4:hover .overflow-hidden{
+	transform: translateY(-100%);
+}
+
+/* ----------------
+	footer
+---------------- */
+#footer{
+	background-color: #fafafa;
+}
+#footer p{
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	color:black;
+	padding-top: 0 150px;
+}
+#footer button{
+	width: 150px;
+	height: 50px;
+	background-color: #fafafa;
+	border: 2px solid black;
+	font-size: 18px;
+	transition: 0.5s;
+}
+#footer button:hover{
+	background-color: black;
+	color:white;
+}
+footer p{
+	font-family: "Montserrat", sans-serif;
+	font-size:18px;
+}
+footer a{
+	color:white;
+}
+footer a:hover{
+	color:red;
+}
+
+
